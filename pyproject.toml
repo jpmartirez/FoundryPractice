@@ -6,8 +6,10 @@ readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
     "azure-ai-contentunderstanding>=1.1.0",
+    "azure-ai-projects>=2.7.0",
     "azure-cognitiveservices-speech>=1.51.2",
     "azure-identity>=1.25.3",
+    "azure-search-documents>=11.6.0",
     "dotenv>=0.9.9",
     "langchain>=1.4.2",
     "langchain-azure-ai>=1.2.3",
