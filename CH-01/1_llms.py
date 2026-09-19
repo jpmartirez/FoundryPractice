@@ -4,8 +4,7 @@ import os
 
 load_dotenv()
 
-
-endpoint = "https://foundryjpws.services.ai.azure.com/openai/v1"
+endpoint = os.environ["AZURE_OPENAI_ENDPOINT"]
 deployment_name = "gpt-4.1-mini"
 api_key = os.environ["API_KEY"]
 
